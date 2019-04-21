@@ -1,21 +1,17 @@
-# Lumen PHP Framework
+this is API that I am building inorder to serve a client Application which is My personal webSite
+I have chosed to build this API in PHP/Lumen Laravel Framwork to advance my skills in PHP.
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://poser.pugx.org/laravel/lumen-framework/d/total.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/lumen-framework/v/stable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/lumen-framework/v/unstable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://packagist.org/packages/laravel/lumen-framework)
+The API consists of a set number of endPoints which you can use to GET/POST requests to it.
+At the moment we have 2 endPoints:
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
-
-## Official Documentation
-
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+1- hostName/clients : this is a GET requests which retreives all the clients in the data Base
+1- hostName/projects : this is a GET requests which retreives all the projects in the data Bas
+Next I will working on Adding two POST requests as folow : 
+....hostName/addclient with a JSON body as 
+{
+  "name" : "data",
+  "surename" : "data",
+  "email" : "data" // unique
+  "password" : "data" // will ne hashed of course
+  
+  the response of this requests is a success only if the email is not in the DB. otherwise you get a response to resubmit the request.
