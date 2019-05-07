@@ -1,4 +1,7 @@
-this is API that I am building inorder to serve a client Application which is My personal webSite
+#JUST STARTED
+
+this API that I am building inorder to serve a client Application which is My personal webSite.
+
 I have chosed to build this API in PHP/Lumen Laravel Framwork to advance my skills in PHP.
 
 The API consists of a set number of endPoints which you can use to GET/POST requests to it.
